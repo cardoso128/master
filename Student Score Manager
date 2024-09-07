@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    // Step 1: Define the constant
+    const int numStudents = 9;
+
+    // Step 2: Define variables for each student's seating location, name, and score
+    int loc1 = 1, loc2 = 2, loc3 = 3, loc4 = 4, loc5 = 5, loc6 = 6, loc7 = 7, loc8 = 8, loc9 = 9;
+    char name1 = 'B', name2 = 'M', name3 = 'T', name4 = 'J', name5 = 'P', name6 = 'E', name7 = 'H', name8 = 'R', name9 = 'X';
+    float score1 = 79.54, score2 = 82.13, score3 = 74.61, score4 = 91.12, score5 = 78.83, score6 = 97.17, score7 = 85.65, score8 = 65.42, score9 = 70.26;
+
+    // Step 3: Print the number of students
+    printf("Number of students in the class: %d\n", numStudents);
+
+    // Step 4: Print the class information in the required format
+    printf("%d %c %.1f\n%d %c %.1f\n%d %c %.1f\n\n", loc1, name1, score1, loc2, name2, score2, loc3, name3, score3);
+    printf("%d %c %.1f\n%d %c %.1f\n%d %c %.1f\n\n", loc4, name4, score4, loc5, name5, score5, loc6, name6, score6);
+    printf("%d %c %.1f\n%d %c %.1f\n%d %c %.1f\n", loc7, name7, score7, loc8, name8, score8, loc9, name9, score9);
+
+    return 0;
+}
